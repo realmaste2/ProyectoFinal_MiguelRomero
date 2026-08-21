@@ -38,7 +38,7 @@ public class Main {
                 System.out.println("Ingrese un nivel valido para obtener un descuento.");
         }
 
-        // 3. ESTRUCTURA IF / ELSE IF / ELSE
+            // 3. ESTRUCTURA CONDICIONAL
         double rebajaNivel = costoPaquete * porcentajeDescuento;
         double subtotal = costoPaquete - rebajaNivel;
 
@@ -53,7 +53,7 @@ public class Main {
         // 4. LLAMADA AL METODO (CORRECCIÓN 2: Ya coincide exactamente con la variable de arriba)
         double totalNeto = calcularLiquidacion(subtotal, esTercioSuperior);
 
-        // 5. CICLO WHILE ACUMULATIVO  ESTOY CONSIDERANDO 3 CUOTAS
+        // 5. CICLO WHILE ACUMULATIVO  - 3 CUOTAS
         int mes = 1;
         double cuotaMensual = totalNeto / 3;
         System.out.println("\n--- CRONOGRAMA DE PAGOS EN CUOTAS ---");
@@ -62,7 +62,7 @@ public class Main {
             mes++;
         }
 
-        // 6. CICLO FOR ESTOY COLOCANDO 2 COMO ALGO FIJO DEPENDERA CUANTOS AÑOS ESTE EN EL COLEGIO
+        // 6. CICLO FOR - 2 COMO ALGO FIJO DEPENDERA CUANTOS AÑOS ESTE EN EL COLEGIO
         System.out.println("\n--- PROYECCION DE PUNTOS DE FIDELIDAD ---");
         int puntosAcumulados = 0;
         for (int i = 1; i <= 2; i++) {
