@@ -72,7 +72,7 @@ public class Main {
 
         // REPORTE FINAL TOTALIZADO
 
-        System.out.println("\n--- LIQUIDACIÓN FINAL DE CAJA ---");
+        System.out.println("\n--- LIQUIDACIÓNN FINAL DE CAJA ---");
         System.out.println("Monto neto final liquidado para " + alumno + ": S/ " + totalNeto);
 
         if (totalNeto < 200.0) {
